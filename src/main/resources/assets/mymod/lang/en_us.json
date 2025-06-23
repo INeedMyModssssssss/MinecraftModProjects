@@ -1,0 +1,22 @@
+{
+  "tab.mymod.,mytab": "My Mod",
+  "item.mymod.worm" : "Tasty Treat",
+  "item.mymod.ingot": "Building Buddy",
+  "block.mymod.dirt": "Wormy Dirt",
+  "block.mymod.ore": "Smelt Me Good",
+  "item.mymod.pickaxe": "Tuff Pickaxe",
+  "item.mymod.shovel": "Tuff Shovel",
+  "item.mymod.axe":  "Tuff Axe",
+  "item.mymod.hoe": "Tuff hoe",
+  "item.mymod.sword": "Rainbow Sword",
+  "item.mymod.helmet": "Tuff Helmet",
+  "item.mymod.chestplate": "Tuff Chestplate",
+  "item.mymod.leggings": "Tuff Leggings",
+  "item.mymod.boots": "Tuff Boots",
+  "item.mymod.atomic_fireball": "Atomic Fireball",
+  "entity.mymod.atomic_fireball": "Atomic Fireball",
+  "item.mymod.atomic_launcher": "Look Out Below",
+  "item.mymod.teleporter": "Take Me There",
+  "entity.mymod.candy_zombie": "Candy Zombie",
+  "item.mymod.candy_zombie_spawn_egg": "Candy Zombie Spawn Egg"
+}

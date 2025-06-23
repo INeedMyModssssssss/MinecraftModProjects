@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "@  ",
+    "XRX",
+    "XGX"
+  ],
+  "key": {
+    "X": {
+      "item": "mymod:ingot"
+    },
+    "@": {
+      "item": "minecraft:emerald"
+    },
+    "G": {
+      "item": "minecraft:ender_pearl"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "mymod:teleporter"
+  }
+}

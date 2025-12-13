@@ -1,9 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#minecraft:is_overworld",
-  "features": [
-    "mymod:dirt",
-    "mymod:ore"
-  ],
-  "step": "underground_ores"
-}

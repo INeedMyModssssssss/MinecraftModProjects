@@ -10,7 +10,10 @@ import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+
+import static com.example.simple_poop.init.RegistryHandler.POOP;
 
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -66,6 +69,13 @@ public class PoopMod {
             }
 
         }
+    }
+
+    @SubscribeEvent
+    public static void onCommonSetup(net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            com.example.simple_poop.network.PacketHandler.register();
+        });
     }
 }
 
